@@ -2,13 +2,22 @@ const Employee_Id = 537792
 let Employee_Email = "employee@google.com"
 var Employee_Password= "123@Abcd"
 Employee_Name = "Amrit Ranjan"
+
+
+
 //Employee_Id = 537793   (it is not allowed)
-//console.log(Employee_Id);
+
+
+
+
+
+//let Employee_Email = "newemail@google.com" (we can not re-declare let)
 Employee_Email ="emp@google.com"
 
 
 
-Employee_Password = "Abcd@123"
+var Employee_Password = "Abcde@1234" /*(We can re-declare var) */
+
 
 
 
