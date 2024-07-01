@@ -24,3 +24,6 @@ please don't use Var
 because of issue in block scope and functional scope
 which we will read later.
 */
+
+
+console.table(typeof[Employee_Id, Employee_Email, Employee_Password, Employee_Name])
