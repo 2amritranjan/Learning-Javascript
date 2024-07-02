@@ -34,7 +34,7 @@ convert strings to numbers but rather converts numbers
 to strings.
 */
 
-let titleWin = ("3") + 1 //here how + sign works fine.
+let titleWin = Number("3") + 1 //here we have to convert string to number first.
 console.log(titleWin)
 console.log(typeof titleWin)
 
