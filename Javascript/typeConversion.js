@@ -49,3 +49,8 @@ which can not be converted as 19abc is not s valid number.
 The problem here is age gets converted to number but if
 we check the the converted age it shows its NaN(Not a number).
 */
+// "33" => 33
+// "33abc" => NaN
+// null => 0
+// undefined => NaN
+// True/False => 1/0
