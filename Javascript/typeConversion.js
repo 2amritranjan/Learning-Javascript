@@ -38,3 +38,14 @@ let titleWin = Number("3") + 1 //here we have to convert string to number first.
 console.log(titleWin)
 console.log(typeof titleWin)
 
+
+let age = "19abc"
+let numberAge = Number(age)
+console.log(typeof numberAge)
+console.log(numberAge)
+/*
+Here we converted age which is a string to number,
+which can not be converted as 19abc is not s valid number.
+The problem here is age gets converted to number but if
+we check the the converted age it shows its NaN(Not a number).
+*/
