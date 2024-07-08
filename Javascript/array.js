@@ -10,4 +10,5 @@ array.shift()
 console.log(array)
 array.unshift("Amrit Ranjan")
 console.log(array)
-
+array.includes(24)
+console.log(array.includes(24))
