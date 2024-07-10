@@ -38,3 +38,19 @@ const all_new_heros = [...marvel, ...Dc]
 console.log(all_new_heros)
 
 //Both .concat and spread works the same way.
+
+const someArray = [1,2,3,[4,5,6,[7,8,9,[3,4]]]]
+const realArray = someArray.flat(Infinity)
+console.log(realArray)
+
+//Here we created a new array from lots or arrays.
+
+console.log(Array.isArray("Amrit Ranjan"))  //Here we checked if "String" is array or not.
+console.log(Array.from("Amrit Ranjan"))    //Here we converted string to array.
+
+let score1 = 100
+let score2 = 200
+let score3 = 300
+
+console.log(Array.of(score1, score2, score3))
+//Here we converted more than on variables to array.
