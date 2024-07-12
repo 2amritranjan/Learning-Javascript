@@ -50,3 +50,44 @@ const newObject ={...profile, ...tinderUser, ...tinderUser.details}
 console.log(newObject)
    
 //Here we created new objects from existing objects.
+
+const user =[
+    {
+        id: 1,
+        password: 12345
+    },
+    {
+        id: 2,
+        password: 23456
+
+    },
+    {
+        id: 3,
+        password: 34567
+    }
+]
+const newUser = user[1].password
+console.log(newUser)
+
+// Here we created an array of objects and printed the values using indexing.
+
+console.log(Object.keys(tinderUser))
+console.log(Object.values(tinderUser))
+console.log(Object.entries(tinderUser))
+
+/*
+There is also a topic of de-structuring of objects where we can change
+or manipulate the keys and use it accordingly to fetch values.
+*/
+
+/*.    +++++Talking abou JASON API+++++
+{
+"name": "Amrit Ranjan",
+"email": "amrit@google.com",
+"mobile": "8340397905"
+}
+This is example of JASON its basically a object only but its not 
+stored in and variable.
+
+Jason can be also inscribed in array [ ]
+*/
