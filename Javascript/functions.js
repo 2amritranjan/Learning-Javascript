@@ -81,3 +81,5 @@ function arrayHandling(anyArray){
     console.log (`Hi my name is ${anyArray[0]} i am ${anyArray[1]} years old and my userId is ${anyArray[2]}`)
 }
 arrayHandling(arrayProfile)
+
+//Here function is done and now we will learn about scope like local and global scopes.
