@@ -23,3 +23,14 @@ working on same project, that is why var is not used during
 real life coding. Its just to understand that we can declare a variable 
 using var and that's all.
 */
+let name = "Amrit"
+function profile(){
+    name: "Ajit",
+    email: "ajit@google.com",
+    mobile: 8340397905,
+    userName: "Ajit123@kumar"
+    console.log(profile.userName)
+    console.log(profile.mobile)
+}
+console.log(profile.name)
+console.log(profile.email)
