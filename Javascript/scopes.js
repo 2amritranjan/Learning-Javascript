@@ -23,19 +23,6 @@ working on same project, that is why var is not used during
 real life coding. Its just to understand that we can declare a variable 
 using var and that's all.
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
 function someProfile(){
     const userId = "amrit123"
     console.log(userId)
