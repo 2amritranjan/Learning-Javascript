@@ -15,7 +15,7 @@ var c = 20
 //console.log(number1)   //Here the values of number1 shouldn't get print.
 //console.log(number2)   //Here the value of number2 shouldn't get printed.
 
-console.log(number3)     //Here the value of number3 shouldn't get printed also but thats the catch.
+//console.log(number3)     //Here the value of number3 shouldn't get printed also but thats the catch.
 /*
 This var number3 doesn't follow scopes and can be printed outside the 
 scope also which can create alot of confusion during multiple people 
@@ -23,14 +23,30 @@ working on same project, that is why var is not used during
 real life coding. Its just to understand that we can declare a variable 
 using var and that's all.
 */
-let name = "Amrit"
-function profile(){
-    name: "Ajit",
-    email: "ajit@google.com",
-    mobile: 8340397905,
-    userName: "Ajit123@kumar"
-    console.log(profile.userName)
-    console.log(profile.mobile)
+
+
+
+
+
+
+
+
+
+
+
+
+
+function someProfile(){
+    const userId = "amrit123"
+    console.log(userId)
+
+    function someUser(){
+        const someName = "Amrit Ranjan"
+        console.log(userId)
+    }
+    someUser()
+    someProfile()
 }
-console.log(profile.name)
-console.log(profile.email)
+someUser()
+someProfile()
+
