@@ -43,10 +43,35 @@ function someProfile(){
     function someUser(){
         const someName = "Amrit Ranjan"
         console.log(userId)
+        console.log(someName)
     }
-    someUser()
-    someProfile()
+   // someUser()
+   // someProfile()
 }
-someUser()
-someProfile()
 
+//someProfile()
+
+//Here we can learn the example of local and global scope.
+
+function addOne(num){
+    return num +1
+}
+console.log(addOne(7))
+//Here we can already know what will happen.
+
+console.log(addTwo(6))
+    function addTwo(numb){
+        return numb +2
+    }
+//Here we can fetch tha addTwo function even before defining it.
+ const addThree = function (numb){
+    return numb +3
+ }
+ console.log(addThree(4))
+ //Here it's also obvious we can get the values.
+
+ console.log(addFour(7))
+ let addFour = function(numb){
+    return numb + 4
+ }
+ //Here we can not get the value of addFour above the function because we Store functions in a variable named addFour.
