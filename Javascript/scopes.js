@@ -75,3 +75,4 @@ console.log(addTwo(6))
     return numb + 4
  }
  //Here we can not get the value of addFour above the function because we Store functions in a variable named addFour.
+//Now we know the difference between when to get the values before declaration of any function and when we can't get the values.
