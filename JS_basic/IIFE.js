@@ -1,7 +1,7 @@
 function connectionCheck(){
     console.log("Secure connection found.")
 }
-connectionCheck()
+connectionCheck();
 // This is a example of simple function but we have to manually execute this code by writing connectionCheck()
 //IIFE stand for Immediately Invoked Function Expression, So we can execute this codes automatically.
 
