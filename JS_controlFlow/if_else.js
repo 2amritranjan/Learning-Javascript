@@ -23,5 +23,16 @@ if (name === "Amrit" && sex ==="female"){
 Here we learnt about some conditions and how we can check multiple conditions at
 one go.
 */
-    
 
+const userLoggedIn = true
+const debitCard = true
+const loggedInFromGoogle = false
+const loggedInFromEmail = true
+
+if (userLoggedIn && debitCard){
+    console.log("You are allowed to buy course")
+}
+if (loggedInFromEmail || loggedInFromGoogle){
+    console.log("User logged in")
+}
+//Here we learnt many basic things about if_else
